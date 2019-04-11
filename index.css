@@ -30,7 +30,7 @@ h1.welcome {
 }
 
 .webform {
-    background: white;
+    /* background: white; */
     display: block;
     width: 600px;
     margin: 0 auto;
@@ -42,7 +42,11 @@ h1.welcome {
 }
 
 form {
+    border: 3px;
     border-radius: 8px;
+    background-color: white;
+    padding-bottom: 30px;
+    padding-top: 20px;
 }
 
 .entry {
@@ -60,6 +64,7 @@ form {
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 20px;
+    color: white;
 }
 
 .emailaddress {
@@ -110,9 +115,14 @@ color: #ccc;
 
 }
 
+.loginbutton:hover {
+    background-color: gray;
+}
+
 footer {
     background: blue;
     color: white;
+    width: 600px;
 }
 
 a {
@@ -127,4 +137,17 @@ a {
     padding-top: 40px;
 }
 a.noaccount {
+    float: right;
+}
+
+a.forgotpassword:hover {
+    color: grey;
+}
+
+span.getstarted {
+    font-weight: bold;
+}
+
+span.getstarted:hover {
+    color: grey;
 }
